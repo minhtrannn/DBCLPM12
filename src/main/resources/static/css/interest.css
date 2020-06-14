@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    background-image: url(backgroundVPBank.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.header
+{
+    position: relative;
+    height: 50px;
+    background-color: #f1f1f1;
+    display: flex;
+}
+.contact-information
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 5px;
+}
+
+.main-sector
+{
+    width: 950px;
+    background-color: rgba(0,0,0,.4);
+    height: 550px;
+    padding: 40px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.main-sector label
+{
+    color: #f1f1f1;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.left-main
+{
+    height: 80%;
+}
+
+.right-main
+{
+    height: 80%;
+}
+
+.contain-information
+{
+    position: relative;
+    height: 40px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.information
+{
+    position: absolute;
+    right: 0;
+    color: #252222;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    width: 65%;
+    outline: none;
+    padding: 0 7px;
+    height:40px;
+}
+
+.options
+{
+    position: absolute;
+    right: 0;
+    color: #252222;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    width: 65%;
+    outline: none;
+    padding: 0 7px;
+    height:40px;
+}
+
+.main-sector input::placeholder
+{
+    color: #adadad;
+}
+
+
+.left-main
+{
+    width: 50%;
+}
+
+.right-main
+{
+    width: 50%;
+}
+
+#date-of-birth
+{
+    display: flex;
+    position: absolute;
+    right: 0;
+    color: #252222;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    width: 65%;
+    outline: none;
+    height:40px;
+}
+#date-of-birth2
+{
+    display: flex;
+    position: absolute;
+    right: 0;
+    color: #252222;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    width: 65%;
+    outline: none;
+    height:40px;
+}
+#date-of-birth3
+{
+    display: flex;
+    position: absolute;
+    right: 0;
+    color: #252222;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    width: 65%;
+    outline: none;
+    height:40px;
+}
+#date-of-birth4
+{
+    display: flex;
+    position: absolute;
+    right: 0;
+    color: #252222;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    width: 65%;
+    outline: none;
+    height:40px;
+}
+
+#date-of-birth select
+{
+    width: 33.3%;
+}
+#date-of-birth2 select
+{
+    width: 33.3%;
+}
+#date-of-birth3 select
+{
+    width: 33.3%;
+}
+
+#submit
+{
+    position: absolute;
+    left: 45%;
+    bottom: 50px;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    background: linear-gradient(120deg,#3498db,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
